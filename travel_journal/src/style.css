@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.navbar {
+    background-color: #F55A5A;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navbar--title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+
+.navbar--logo {
+    height: 30px;
+}
+
+.posts {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.post {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 220px;
+    border-bottom: 2px solid #F5F5F5;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.post--image {
+    border-radius: 5px;
+    height: 200px;
+}
+
+.post--data {
+    padding-left: 20px;
+    align-self: center
+}
+
+.post--icon {
+    height: 14px;
+}
+
+.post--country {
+    padding-left: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    text-transform: uppercase;
+}
+
+.post--location {
+    display: flex;
+    align-items: flex-start;
+}
+
+.post--googlemaps {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+    padding-left: 15px;
+}
+
+.post--title {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #2B283A;
+    padding-top: 10px;
+}
+
+.post--dates {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 12px;
+    color: #2B283A;
+    padding-top: 10px;
+}
+
+.post--description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2B283A;
+}
