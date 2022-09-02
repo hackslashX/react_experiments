@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Karla';
+    font-style: normal;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.nav--logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav--title {
+    font-weight: 700;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+}
+
+.nav--link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.nav--image {
+    height: 30px;
+}
+
+.main {
+    padding: 40px;
+    width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.mform {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.mform--inputs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.mform--input {
+    width: 220px;;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0D0D0D;
+    font-family: 'Karla';
+    font-style: normal;
+}
+
+.mform--button {
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-color: transparent;
+    border-radius: 5px;
+    width: 100%;
+    padding-block: 10px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.mform--button:hover {
+    background: linear-gradient(90.41deg, #9153a6 1.14%, #c845f4 100%);
+}
+
+.meme {
+    height: 270px;
+    width: 550px;
+    padding-inline: 40px;
+    object-fit: cover;
+}
